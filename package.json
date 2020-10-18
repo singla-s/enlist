@@ -1,0 +1,22 @@
+{
+  "name": "enlist",
+  "version": "1.0.0",
+  "description": "Sign up application for magazine, newsletter",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singla-s/enlist.git"
+  },
+  "author": "Sinni Singla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singla-s/enlist/issues"
+  },
+  "homepage": "https://github.com/singla-s/enlist#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
