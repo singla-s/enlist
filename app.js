@@ -47,10 +47,12 @@ app.post("/", function(req, res) {
     request.end();
 });
 
-
+app.post("/tryagain", function(req, res) {
+    res.redirect("/");
+});
 
 //listen to 3000 port
-app.listen(3000, function() {
+app.listen(process.env.PORT || 3000, function() {
     console.log("Server listening on port 3000");
 });
 
